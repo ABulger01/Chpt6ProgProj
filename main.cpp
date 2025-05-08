@@ -8,3 +8,8 @@ using namespace std;
 void getJudgeScores(double scores[], int size);
 double calculateScore(double scores[], int size);
 double findLowest(double scores[], int size);
+double findHighest(double scores[], int size);
+
+const int Num_Judges = 5;
+
+  
