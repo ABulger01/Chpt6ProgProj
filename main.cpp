@@ -5,12 +5,14 @@ using namespace std;
 
 // Function prototypes
 double getPositiveInput(string prompt);
-double calculatePerimeter(int length, int width);
-double calculateArea(int length, int width);
+double calculatePerimeter(double length, double width);
+double calculateArea(double length, double width);
 bool askToContinue();
 
 int main () {
-    do {}
+    do { 
+        // Get the length and width of the rectangle from the user
+        
 }
     
 }
