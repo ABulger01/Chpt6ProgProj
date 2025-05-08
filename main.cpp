@@ -46,8 +46,15 @@ void findLowest(int north, int south, int east, int west, int central) {
     lowest = east;
     region = "East";
   }
+  if (west < lowest) {
+    lowest = west;
+    region = "West";
+  }
+  if (central < lowest) {
+    lowest = central;
+    region = "Central";
+  }
+  cout << "The " << region << " region had the fewest reported automobile accidents in the last year with " << lowest << " reported accidents. \n";
   
 }
-  }
-}
-}
+  // End of program
