@@ -16,7 +16,13 @@ int main () {
         double width = getPositiveInput("Enter the width of the rectangle: ");
 
         // Calculate the perimeter and the area of the rectangle
-        
+        double perimeter = calculatePerimeter(length, width);
+        double area = calculateArea(length, width);
+
+      // Display the results
+        cout << "The perimeter of the rectangle is: " << perimeter << endl;
+        cout << "The area of the rectangle is: " << area << endl;
+
 }
     
 }
