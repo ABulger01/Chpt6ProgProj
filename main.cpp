@@ -22,7 +22,18 @@ int main() {
 
 // Function to validate and get judge scores
 void getJudgeScores(double scores[], int size) {
-    for ()
+    for (int i = 0; i < size; ++i) {
+        do {
+            cout << "Enter score for judge " << (i + 1) << "(0-10): ";
+            cin >> scores[i];
+            if (scores[i] < 0 || scores[i] > 10) {
+                cout << "Invalid score. Please enter a score between 0 and 10> Try Again." << endl;
+            }
+        } while (scores[i] < 0 || scores[i] > 10);
+              
+            }
+        }
+    }
   
 }
   
