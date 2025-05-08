@@ -23,6 +23,28 @@ int main () {
         cout << "The perimeter of the rectangle is: " << perimeter << endl;
         cout << "The area of the rectangle is: " << area << endl;
 
+    } while (askToContinue());
+    return 0;
+}
+    // Funtion to get positive input from the user
+    double getPositiveInput(string promt) {
+        double input;
+        do {
+            cout << prompt;
+            cin >> input;
+
+            if (input < 0) {
+                cout << "Invalid input. Please enter a postive number." << endl;
+            }
+        } while (input < 0);
+        return input;
+    }  
+    // Function to calculate the perimeter of the rectangle
+  
+          
+        }
+    }
+
 }
     
 }
