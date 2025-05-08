@@ -29,13 +29,4 @@ void getJudgeScores(double scores[], int size) {
             if (scores[i] < 0 || scores[i] > 10) {
                 cout << "Invalid score. Please enter a score between 0 and 10> Try Again." << endl;
             }
-        } while (scores[i] < 0 || scores[i] > 10);
-              
-            }
-        }
-    }
-  
-}
-  
-)
-}  
+        } while (scores[i] < 0 || scores[i] > 10); }
