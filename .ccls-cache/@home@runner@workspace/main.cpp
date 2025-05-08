@@ -12,5 +12,17 @@ int main() {
   // Get accidents for each region
   int north = getAccidents("North");
   int south = getAccidents("South");
-  i
+  int west = getAccidents("West");
+  int east = getAccidents("East");
+  int central = getAccidents("Central");
+
+  // Find the region with the fewest accidents
+  findLowest(north, south, east, west, central);
+  return 0;
+
+}
+// Function to get accidents for each region
+int getAccidents(string region) {
+  int 
+}
 }
