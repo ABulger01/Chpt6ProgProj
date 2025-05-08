@@ -30,6 +30,24 @@ int getAccidents(string region) {
     if (accidents < 0) {
       cout << "The number of accidents cannot be negative. Please try again.\n";
     }
+  } while (accidents < 0);
+  return accidents;
+}
+  // Function to fine the region with the fewest accidents
+void findLowest(int north, int south, int east, int west, int central) {
+  int lowest = north;
+  string region = "North";
+
+  if (south < lowest) {
+    lowest = south;
+    region = "South";
+  }  
+  if (east < lowest) {
+    lowest = east;
+    region = "East";
+  }
+  
+}
   }
 }
 }
