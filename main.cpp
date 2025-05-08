@@ -23,6 +23,13 @@ int main() {
 }
 // Function to get accidents for each region
 int getAccidents(string region) {
-  int 
+  int accidents;
+  do {
+    cout << "Enter the number of automobile accidents reported in the " << region << " region during the last year: ";
+    cin >> accidents;
+    if (accidents < 0) {
+      cout << "The number of accidents cannot be negative. Please try again.\n";
+    }
+  }
 }
 }
