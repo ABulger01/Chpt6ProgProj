@@ -54,5 +54,6 @@ int main () {
         cout << "Do you want to try another rectangle? (y/n): ";
         cin >> choice;
         return choice == 'y' || choice == 'Y';
-  }
+    }
+
 
