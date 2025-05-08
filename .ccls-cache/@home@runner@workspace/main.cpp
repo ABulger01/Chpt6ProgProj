@@ -27,7 +27,7 @@ int main () {
     return 0;
 }
     // Funtion to get positive input from the user
-    double getPositiveInput(string promt) {
+    double getPositiveInput(string prompt) {
         double input;
         do {
             cout << prompt;
@@ -47,13 +47,12 @@ int main () {
     double calculateArea(double length, double width) {
         return length * width;
     }
-    // Fun
-    }
-    }
-          
-        }
-    }
 
-}
-    
-}
+    // Function to ask the user if they want to continue
+    bool askToContinue() {
+        char choice;
+        cout << "Do you want to try another rectangle? (y/n): ";
+        cin >> choice;
+        return choice == 'y' || choice == 'Y';
+  }
+
