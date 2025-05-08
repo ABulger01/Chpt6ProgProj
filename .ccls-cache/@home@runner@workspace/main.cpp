@@ -8,4 +8,13 @@ using namespace std;
 double fahrenheitToCelsius(int fahrenheit);
 void displayTable();
 
-int main()
+int main() {
+    displayTable();
+    return 0;
+}
+// This function will convert Fahrenheit to Celsius
+double fahrenheitToCelsius(int fahrenheit) {
+    return (fahrenheit - 32_) * 5.0 / 9.0;
+  
+}
+}
