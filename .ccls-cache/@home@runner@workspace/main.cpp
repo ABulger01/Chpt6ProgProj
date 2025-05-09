@@ -39,6 +39,9 @@ int main() {
     displayResults(gallons, laborHours, paintCost, laborCost);
 
     return 0;
-    
+}
+// Function to get the number of rooms
+int getNumberOfRooms() {
+    int numRooms;
     
 }
