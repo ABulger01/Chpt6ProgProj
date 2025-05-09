@@ -83,8 +83,9 @@ int getNumberOfRooms() {
         return total;
         }
     // Function to calculate the gallons of paint
-    double calculateGallonsOfPaint(double squareFeet) 
+    double calculateGallonsOfPaint(double squareFeet) {
+        return ceil(sqaureFeet / SqaureFeetPerGallon);
     }
-        }
-    
-}
+    // Function to calculate the labor hours
+    }
+ 
