@@ -63,7 +63,7 @@ void getJudgeScores(double scores[], int size) {
             cout << "Enter score for judge " << (i + 1) << ": ";
             cin >> scores[i];
             if (scores[i] < 0 || scores[i] > 10) {
-                cout << "Invalid score. Please enter a score between           0 and 10> Try Again\n";
+                cout << "Invalid score. Please enter a score between 0 and 10. Try Again\n";
             }
         } while (scores[i] < 0 || scores[i] > 10);
     }
