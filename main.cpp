@@ -87,5 +87,10 @@ int getNumberOfRooms() {
         return ceil(sqaureFeet / SqaureFeetPerGallon);
     }
     // Function to calculate the labor hours
+    double calculateLaborHours(double gallonsOfPaint) {
+        return gallonsOfPaint * HoursPerGallon;
+    }
+    
+    }
     }
  
