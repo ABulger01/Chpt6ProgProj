@@ -24,5 +24,21 @@ double calculateGallonsOfPaint(double sqaureFeet);
 double calculateLaborHours(double gallonsOfPaint);
 double calculatePaintCost(double gallons, double pricePerGallon);
 double calculateLaborCost(double laborHours);
-void displayResults(double gallons, double hours, double paintCost, double laborCost);
+void displayResults(double gallons, double laborHours, double paintCost, double laborCost);
 
+int main() {
+    int numberOfRooms = getNumberOfRooms();
+    double pricePerGallon = getPricePerGallon();
+    double totalSqaureFeet = calculateTotalSquareFeet(int numRooms);
+
+    double gallons = calculateGallonsOfPaint(totalSqaureFeet);
+    double laborHours = calculateLaborHours(gallons);
+    double paintCost = calculatePaintCost(gallons, pricePerGallon);
+    double laborCost = calculateLaborCost(laborHours);
+
+    displayResults(gallons, laborHours, paintCost, laborCost);
+
+    return 0;
+    
+    
+}
