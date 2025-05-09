@@ -29,7 +29,7 @@ void displayResults(double gallons, double laborHours, double paintCost, double 
 int main() {
     int numberOfRooms = getNumberOfRooms();
     double pricePerGallon = getPricePerGallon();
-    double totalSqaureFeet = calculateTotalSquareFeet(int numRooms);
+    double totalSqaureFeet = calculateTotalSquareFeet(int NumRooms);
 
     double gallons = calculateGallonsOfPaint(totalSqaureFeet);
     double laborHours = calculateLaborHours(gallons);
@@ -106,5 +106,7 @@ int getNumberOfRooms() {
         cout << "----------------------------------------\n";
         cout << "Gallons of paint required: " << gallons << endl;
         cout << "Hours of labor required: " << laborHours << endl;
+        cout << "Cost of paint: $" << paintCost << endl;
+        cout << "Labor charges: $" << laborCost << endl;
+        cout << "Total cost of the paint job: $" << totalCost << endl;
     }
-    
