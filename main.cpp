@@ -43,5 +43,13 @@ int main() {
 // Function to get the number of rooms
 int getNumberOfRooms() {
     int numRooms;
+    do {
+        cout << "Enter the number of rooms to be painted: ";
+        cin >> numRooms;
+        if (numRooms < 1) {
+            cout << "The number of rooms must be greater than 0. Try again.\n";
+            
+        }
+    }
     
 }
