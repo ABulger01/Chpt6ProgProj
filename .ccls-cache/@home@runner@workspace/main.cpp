@@ -57,9 +57,17 @@ int getNumberOfRooms() {
         do {
             cout << "Enter the price of paint per gallon: $";
             cin >> price;
-            if (price)
+            if (price < 10.0)
+                cout << "Price must be greater than $10.00. Try again.\n";
+        } while (price < 10.0);
+        return price;
         }
+
+    // Function to get the square feet of each room
+    double getRoomsSquareFeet(int roomNumber) {
+        double sqaureFeet;
         
+    }
         }
     
 }
