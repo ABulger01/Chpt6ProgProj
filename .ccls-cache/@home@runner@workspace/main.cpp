@@ -75,7 +75,16 @@ int getNumberOfRooms() {
         return squareFeet;
         }
     // Function to calculate the total square feet
-    
+    double calculateTotalSquareFeet(int numbRooms) {
+        double total = 0.0;
+        for (int i = 1; i <= numRooms; ++i) {
+            total += getRoomSquareFeet(i);
+        }
+        return total;
+        }
+    // Function to calculate the gallons of paint
+    double calculateGallonsOfPaint(double squareFeet) 
+    }
         }
     
 }
