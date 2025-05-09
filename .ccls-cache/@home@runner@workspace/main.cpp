@@ -66,8 +66,16 @@ int getNumberOfRooms() {
     // Function to get the square feet of each room
     double getRoomsSquareFeet(int roomNumber) {
         double sqaureFeet;
-        
-    }
+        do {
+            cout << "Enter the square feet of room #" << roomNumber << ": ";
+            cin >> squareFeet;
+            if (squareFeet < 0)
+                cout << "Square feet must be greater than 0. Try again\n";
+        } while (squareFeet < 0);
+        return squareFeet;
+        }
+    // Function to calculate the total square feet
+    
         }
     
 }
