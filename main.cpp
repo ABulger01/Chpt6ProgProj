@@ -48,8 +48,18 @@ int getNumberOfRooms() {
         cin >> numRooms;
         if (numRooms < 1) {
             cout << "The number of rooms must be greater than 0. Try again.\n";
-            
+        } while (numRooms < 1);
+        return numRooms;
         }
-    }
+    // Function to get the paint price per gallon
+    double getPricePerGallon() {
+        double price;
+        do {
+            cout << "Enter the price of paint per gallon: $";
+            cin >> price;
+            if (price)
+        }
+        
+        }
     
 }
