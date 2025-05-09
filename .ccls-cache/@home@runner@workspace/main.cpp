@@ -94,4 +94,12 @@ int getNumberOfRooms() {
     double calculatePaintCost(double gallons, double pricePerGallon) {
         return gallons * pricePerGallon;
     }
- // Calculate the labor cost
+ // Calculate the labor charges
+    double calculateLaborCost(double laborHours) {
+        return laborHours * LaborChargePerHour;
+    }
+    // Display the results
+    void displayResults(double gallons, double laborHours, double paintCost, double laborCost) {
+        double totalCost = paintCost + laborCost;
+    }
+    
