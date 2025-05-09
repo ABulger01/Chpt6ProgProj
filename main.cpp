@@ -101,5 +101,10 @@ int getNumberOfRooms() {
     // Display the results
     void displayResults(double gallons, double laborHours, double paintCost, double laborCost) {
         double totalCost = paintCost + laborCost;
+        cout << fixed << setprecision(2);
+        cout << "\nPaint Job Estimate:\n";
+        cout << "----------------------------------------\n";
+        cout << "Gallons of paint required: " << gallons << endl;
+        cout << "Hours of labor required: " << laborHours << endl;
     }
     
